@@ -1,0 +1,7 @@
+n, c = int(input()), 0
+for i in range(3):
+    for j in range(n):
+        if i * 2 - j + 100 == 81:
+            c += 1
+            print(i, j)
+print(c)
