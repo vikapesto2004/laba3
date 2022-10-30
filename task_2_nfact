@@ -1,0 +1,13 @@
+n, co = ['a', 'b', 'c', 'd'], 0
+for i in n:
+    a = n.copy()
+    a.remove(i)
+    for j in a:
+        b = a.copy()
+        b.remove(j)
+        for k in b:
+            c = b.copy()
+            c.remove(k)
+            for h in c:
+                co += 1
+                print(f"{co}) {i + j + k + h}")
