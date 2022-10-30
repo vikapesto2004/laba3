@@ -10,7 +10,7 @@ def binary_search(nums, x):
             nums = nums[:m]
         elif x > nums[m]:
             nums = nums[m + 1:]
-    return f"Число {x}не найдено в списке"
+    return f"Число {x} не найдено в списке"
 
 
 a = sorted((list([randint(0, 100) for i in range(25)])))
