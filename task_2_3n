@@ -1,0 +1,6 @@
+n = list(map(int, input().split()))
+mx = n[0]
+for i in n:
+    if mx < i:
+        mx = i
+print(mx)
